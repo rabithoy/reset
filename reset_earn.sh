@@ -2,7 +2,7 @@
 set -e
 
 # 🧩 Bước 1: Chuyển vào thư mục
-cd /dome/ubuntun/earn/InternetIncome-main || { echo "❌ Thư mục không tồn tại!"; exit 1; }
+cd /home/ubuntun/earn/InternetIncome-main || { echo "❌ Thư mục không tồn tại!"; exit 1; }
 
 # 🧩 Bước 2: Xóa file và thư mục nếu tồn tại
 [ -f containers.txt ] && sudo rm -f containers.txt
